@@ -1,0 +1,4 @@
+# Very simple example for reverse-proxy geo storage webhook with Caddy
+example.com {
+    reverse_proxy /webhook* localhost:3032
+}
