@@ -1,0 +1,20 @@
+# Storage configuration settings
+Storage:
+  # Type of storage to use: "postgres"
+  Type: postgres
+
+# PostgreSQL Database configuration settings
+Database:
+  Host: localhost
+  Port: 5432
+  User: postgres
+  Password: your_password_here
+  Name: geodata
+  SSLMode: disable
+
+# Server configuration settings
+Server:
+  # Address on which the webhook server will listen
+  Address: 127.0.0.1
+  # Port on which the webhook server will listen
+  Port: 3033
